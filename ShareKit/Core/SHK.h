@@ -43,7 +43,7 @@
 
 @interface SHK : NSObject 
 {
-	 UIViewController *__weak rootViewController;
+	 //UIViewController *__weak rootViewController;
 	UIViewController *currentView;
 	UIViewController *pendingView;
 	BOOL isDismissingView;
@@ -51,7 +51,7 @@
 	NSOperationQueue *offlineQueue;
 }
 
-@property (nonatomic)    UIViewController * __unsafe_unretained rootViewController;
+@property (nonatomic)    UIViewController * rootViewController;
 @property (nonatomic) UIViewController *currentView;
 @property (nonatomic) UIViewController *pendingView;
 @property BOOL isDismissingView;

@@ -26,6 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSLog(@"Hello I am Log");
     // Do any additional setup after loading the view from its nib.
     
     self.title = @"Feeds";

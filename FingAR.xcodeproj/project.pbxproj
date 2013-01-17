@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E307255E16A8AAFF001D5895 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307255D16A8AAFF001D5895 /* Default-568h@2x.png */; };
 		E399F77615F9D17A0056A41B /* SHKOAuthSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = E399F6DC15F9D1790056A41B /* SHKOAuthSharer.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
 		E399F77715F9D17A0056A41B /* SHKSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = E399F6DE15F9D1790056A41B /* SHKSharer.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
 		E399F77815F9D17A0056A41B /* UIWebView+SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = E399F6E115F9D1790056A41B /* UIWebView+SHK.m */; settings = {COMPILER_FLAGS = " -fno-objc-arc"; }; };
@@ -101,6 +102,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E307255D16A8AAFF001D5895 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E399F6DB15F9D1790056A41B /* SHKOAuthSharer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKOAuthSharer.h; sourceTree = "<group>"; };
 		E399F6DC15F9D1790056A41B /* SHKOAuthSharer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKOAuthSharer.m; sourceTree = "<group>"; };
 		E399F6DD15F9D1790056A41B /* SHKSharer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSharer.h; sourceTree = "<group>"; };
@@ -647,6 +649,7 @@
 		FA12727415ED2F89006E98D5 = {
 			isa = PBXGroup;
 			children = (
+				E307255D16A8AAFF001D5895 /* Default-568h@2x.png */,
 				E399F6D815F9D1790056A41B /* ShareKit */,
 				FA86A9ED15EEA98300F4B55B /* MessageUI.framework */,
 				FA1272C815ED42F9006E98D5 /* ARView */,
@@ -817,6 +820,7 @@
 				E399F78D15F9D17A0056A41B /* SHKSharers.plist in Resources */,
 				E399F79215F9D17A0056A41B /* Localizable.strings in Resources */,
 				E399F79915F9D17A0056A41B /* FBConnect.bundle in Resources */,
+				E307255E16A8AAFF001D5895 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
